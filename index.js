@@ -6,7 +6,7 @@ var cors = require('cors')
 connectToMongo()
 
 const app = express()
-const port = const port=process.env.PORT || 5000
+const port  = process.env.PORT || 5000
 
 app.use(cors()) // Middleware - For resolving the front-end cors error 
 
